@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-transform: none;
+    text-decoration: none;
+    outline: none;
+	margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+	background-color: #DCEDC8
+}
+
+header {
+    background-color: #170;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+	font-size: 20px;
+
+}
+h1 {
+	font-family: Garamond
+}
+h2{
+	font-family: Palatino;
+	font-size: 30px;
+	margin: 10;
+	text-align: center;
+}
+h3{
+	font-family: Garamond;
+	font-size: 20px;
+	margin: 10;
+	text-align: center;
+}
+p {
+	font-family: Palatino;
+	font-size: 20px;
+	margin: 20px;
+	text-align: center;
+	padding: 10px;
+}
+nav {
+	text-align: center;
+	font-family: Garamond;
+	font-size: 25px; 
+}
+	
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: subline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    align-self: flex-end; /* Alinea la imagen al extremo derecho */
+	margin-right: 40px; /* Espacio entre la imagen y el texto */
+    max-width: 50%; /* Ancho máximo de la imagen */
+}
+
+audio-container {
+    position: relative;
+    left: 1800px; /* Ajusta la posición horizontal como desees */
+    top: 40px; /* Ajusta la posición vertical como desees */
+}
